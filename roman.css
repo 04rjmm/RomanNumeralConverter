@@ -1,0 +1,50 @@
+.overall {
+  position: relative;
+  text-align: center;
+}
+
+.title {
+  font-family: "Cinzel";
+  font-size: 80px;
+  text-shadow: 7px 4px HSL(0, 4%, 58%);
+  margin-bottom: 20px;
+}
+
+.para {
+  font-family: "Neuton";
+  font-size: 45px;
+  border: 3px solid RGB(80, 12, 148);
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+}
+
+#input {
+  border: 3px solid RGB(245, 44, 51);
+  display: inline-block;
+  font-size: 40px;
+  font-family: "Neuton";
+  text-align: center;
+}
+
+#submit {
+  padding: 0px 15px 5px 15px;
+  margin: 40px 20px 20px 20px;
+  background-color: white;
+  border: 3px solid RGB(80, 12, 148);
+  font-family: "Neuton";
+  font-size: 30px;
+}
+
+#output {
+  font-family: "Cinzel";
+  font-size: 80px;
+  margin: 20px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
