@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+.overall {
+  position: relative;
+  text-align: center;
+}
+
+.title {
+  font-family: "Cinzel";
+  font-size: 40px;
+  text-shadow: 7px 4px HSL(0, 4%, 58%);
+  margin-bottom: 5px;
+}
+
+.para {
+  font-family: "Neuton";
+  font-size: 20px;
+  border: 0.6px solid RGB(80, 12, 148);
+  display: inline-block;
+  margin-top: 5px;
+  width: 70%;
+  padding: 3px 10px;
+}
+
+.input {
+  border: 0.6px solid RGB(245, 44, 51);
+  display: inline-block;
+  font-size: 17px;
+  font-family: "Neuton";
+  text-align: center;
+}
+
+.submit {
+  padding: 0px 5px 1.5px 5px;
+  margin: 17px 6px 6px 6px;
+  background-color: white;
+  border: 0.6px solid RGB(80, 12, 148);
+  font-family: "Neuton";
+  font-size: 14px;
+}
+
+.output {
+  font-family: "Cinzel";
+  font-size: 30px;
+  margin: 6px;
+}
+
+@media (min-width: 601px) {
+.title-1 {
+  font-family: "Cinzel";
+  font-size: 55px;
+  text-shadow: 7px 4px HSL(0, 4%, 58%);
+  margin-bottom: 5px;
+}
+
+.para-1 {
+  font-family: "Neuton";
+  font-size: 35px;
+  border: 1px solid RGB(80, 12, 148);
+  display: inline-block;
+  margin-top: 12px;
+  width: 70%;
+  padding: 6.50px 17px;
+}
+
+.input-1 {
+  border: 1px solid RGB(245, 44, 51);
+  display: inline-block;
+  font-size: 32px;
+  font-family: "Neuton";
+  text-align: center;
+}
+
+.submit-1 {
+  padding: 0px 11px 3px 11px;
+  margin: 29px 14px 14px 14px;
+  background-color: white;
+  border: 1px solid RGB(80, 12, 148);
+  font-family: "Neuton";
+  font-size: 22px;
+}
+
+.output-1 {
+  font-family: "Cinzel";
+  font-size: 55px;
+  margin: 12px;
+}
+}
+
+@media (min-width: 769px){
+.title {
+  font-family: "Cinzel";
+  font-size: 80px;
+  text-shadow: 7px 4px HSL(0, 4%, 58%);
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.para {
+  font-family: "Neuton";
+  font-size: 45px;
+  border: 3px solid RGB(80, 12, 148);
+  display: inline-block;
+  margin-top: 20px;
+  max-width: 70%;
+  padding: 10px 25px;
+}
+
+.input {
+  border: 3px solid RGB(245, 44, 51);
+  display: inline-block;
+  font-size: 40px;
+  font-family: "Neuton";
+  text-align: center;
+}
+
+.submit {
+  padding: 0px 15px 5px 15px;
+  margin: 40px 20px 20px 10 px;
+  background-color: white;
+  border: 3px solid RGB(80, 12, 148);
+  font-family: "Neuton";
+  font-size: 30px;
+}
+
+.output {
+  font-family: "Cinzel";
+  font-size: 80px;
+  margin: 10px;
+  height: 90px;
+}
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
